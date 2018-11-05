@@ -1,0 +1,17 @@
+{
+	"name": "chatroom",
+	"version": "0.0.1",
+	"description": "Minimailst multi-room chat server",
+	"devtoolsFrontendUrl": "chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e",
+	"faviconUrl": "https://nodejs.org/static/favicon.ico",
+	"id": "0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e",
+	"title": "node",
+	"type": "node",
+	"url": "file://",
+	"webSocketDebuggerUrl": "ws://127.0.0.1:9229/0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e",
+	"dependencies": {
+		"mime": "^2.3.1",
+		"mime-types": "^2.1.21",
+		"socket.io": "^2.1.1"
+	}
+}
