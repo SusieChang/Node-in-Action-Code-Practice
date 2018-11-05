@@ -2,6 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const mime = require('mime-types');
 const path = require('path');
+const chatServer = require('./lib/chat_server.js')
 
 const HOST = '127.0.0.1';
 const PORT = 8080;
@@ -23,6 +24,7 @@ function sendFile (res, filepath, filecontent) {
 
 function sendStatic (res, cache, path) {
 	if(cache && cache[path]) {
+		console.log('Get Page From Cache.');
 		sendFile(res, path, cache[path]);
 	} else {
 		try {
@@ -32,6 +34,7 @@ function sendStatic (res, cache, path) {
 					return;
 				} else {
 					cache[path] = data;
+					console.log('Get Page From Disk.');
 					sendFile(res, path, data);
 				}
 			})
@@ -57,3 +60,6 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, HOST, () => {
 	console.log(`Server running at http://${HOST}:${PORT}/`);
 });
+
+
+chatServer.listen(server);
