@@ -12,12 +12,12 @@ function processInput (charApp, socket) {
 	if(message.charAt(0) == '/') {
 		systemMessage = charApp.processCommand(message);
 		if(systemMessage) {
-			$('#message').append(divSystemContentElement(systemMessage));
+			$('#messages').append(divSystemContentElement(systemMessage));
 		}
 	} else {
 		charApp.sendMessage($('#room').text(), message);
-		$('#message').append(divEscapedContentElement(message));
-		$('#message').scrollTop('#message').prop('scrollHeight');
+		$('#messages').append(divEscapedContentElement(message));
+		$('#messages').scrollTop('#message').prop('scrollHeight');
 	}
 	$('#send-message').val("");
 }
@@ -32,17 +32,17 @@ $(document).ready(function () {
 		} else {
 			message = result.message;
 		}
-		$('#message').append(divSystemContentElement(message));
+		$('#messages').append(divSystemContentElement(message));
 	});
 
 	socket.on('joinResult', function (result) {
 		$('#room').text(result.room);
-		$('#message').append(divSystemContentElement('Room changed.'));
+		$('#messages').append(divSystemContentElement('Room changed.'));
 	});
 
 	socket.on('message', function (message) {
 		var newElement = $('<div></div>').text(message.text);
-		$('#message').append(newElement);
+		$('#messages').append(newElement);
 	});
 
 	socket.on('rooms', function (rooms) {
