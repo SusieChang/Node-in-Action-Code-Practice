@@ -17,7 +17,7 @@ function processInput (charApp, socket) {
 	} else {
 		charApp.sendMessage($('#room').text(), message);
 		$('#messages').append(divEscapedContentElement(message));
-		$('#messages').scrollTop('#message').prop('scrollHeight');
+		$('#messages').scrollTop('#messages').prop('scrollHeight');
 	}
 	$('#send-message').val("");
 }
