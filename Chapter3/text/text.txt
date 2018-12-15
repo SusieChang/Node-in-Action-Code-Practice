@@ -1,0 +1,56 @@
+Why soft skills matter
+While technical skills and the ability to converse with engineers are important, so are soft skills. These abilities, often overlooked by QA testing professionals and hiring managers alike, can elevate an ordinary team to stardom, or on the flip side, make working with otherwise qualified and skilled professionals  a nightmare.
+
+So what are the key soft skills you should develop if you want to stay in QA¡ªand play up in any interview? Conversely, what are the skills on which every hiring manager should focus?  Here¡¯s my short list of the most underrated and overlooked skills in the QA profession. 
+
+1. Know how to ask the right questions, and when to ask them
+In the world of QA, no two projects are the same, so no matter how many times you have done it before, it helps to start with questions.
+
+How is this application going to be used?
+Who are the end customers?
+What are the peak usage times?
+What are the most common browser/hardware/OS configurations?
+If you don¡¯t start with these fundamental inquiries, your QA effort will likely introduce more risk into an application. If you find out that the system under test is used for holiday shopping traffic, it makes sense to focus more on stress and performance testing.
+
+But if your application handles sensitive data, you should add security testing to your plan. If most customers only use one type of browser to access your application, it will save you a lot of effort by not having to do additional browser testing.  
+
+The ability to ask the right questions, to know when to leave your questions open-ended and when to zoom in on specifics, these are the communications skills essential for anyone in QA, especially as you advance through the ranks to a management or liaison role, where your decisions will directly affect application quality.
+
+2. Know how to listen
+We all have opinions, and we all like to talk. Even before the other person is done speaking, we often barge in to offer solutions. These may be relevant and well intended, but they're not always welcome.
+
+Listening is a skill, and over the course of my career, I have met a few people who listen without interrupting, and truly hear what the other person is trying to say.  Early in my career I met a senior manager who had experience in  software development, and was a practicing minister at a small church. His listening skills,  combined with his technical acumen, gave him a rare ability to find defects and identify high risk areas just by listening to the engineers describe their design and development approach.
+
+Needless to say, he moved up the ranks quickly. I hired him at three different organizations where I worked over the years, and I still consider him one of the best testing professionals I know. 
+
+3. Know how to focus on what business stakeholders care about ... and forget the rest
+Nobody likes meetings, and QA meetings can be the worst. I completely understand when a testing manager wants to update the executive team on how productive the team has been and how well their effort is progressing. That said, business stakeholders don¡¯t want to hear a drawn-out speech on the number of bugs found and percentage of requirements covered.
+
+As a QA manager, you need to be able to convert QA-speak into information that¡¯s relevant to the business.  So nix the 30-slide presentation full of defect conversion charts; instead, show them one slide that talks about the business risks and delivery timelines. Not only will you make your statement in a language that business owners understand, but they will appreciate your team¡¯s effort and accomplishments that much more.
+
+4. Know how to play well with others: Take a developer to lunch
+Even with agile and DevOps, where developers, systems administrators and testers are supposed to work side-by-side, there are often invisible walls between different functions. The best way to overcome this is to promote communication.
+
+Countless articles have been written about the importance of team collaboration through regular face-to-face meetings, hosting daily standup gatherings, and using video conferencing and instant messaging to connect remote teams. These are all great ideas for promoting information sharing and interaction.
+
+But the interpersonal skills of your team members are also essential for success. A person who gets along with others, and who is approachable, easy to invite to lunch or chat up at the water cooler, is more valuable than the most well established communications processes. Just chatting with a developer in the cafeteria and asking what he was thinking when he wrote a particular piece of code can help you gain a deeper insight into the application than will loads of documentation and hours of meetings.
+
+5. Know how to deal with bullies
+Over the years, I have seen a surprising amount of bullying behavior in the QA world. I"m talking about when business stakeholders apply intense deadline pressure on QA teams, fueled by never-ending customer demand for faster, better, newer applications and functionality, and the fact that QA is often the last gate standing before the release of the coveted new features.
+
+When business stakeholders don¡¯t fully understand what¡¯s taking so long, they put QA managers on the spot, and blame them for every delay. The important skill here lies in knowing how to stand your ground and your ability to negotiate, rather than giving in to pressure to commit to unattainable deadlines.
+
+If QA is not comfortable releasing an application's functionality as is, perhaps the scope should be changed, with some features delayed until the next release. There will always be deadlines, and people who continue to think that QA is an non-essential step in the lifecycle. Therefore, learning to deal with bullies without compromising application quality is a skill that every QA manager should hone.
+
+6. Know how to manage your time effectively
+These days, it¡¯s all about time to market, so testers often find themselves barely able to stay on top of the most urgent assignments. And in trying to keep up, they may neglect other tasks that still need to be done, such as updating regression tests and building test scenarios.
+
+Staying organized and planning ahead can save weeks of your time over the course of a given project's lifecycle. There are many good books on this subject. If you're struggling, pick one up.
+
+7. Know how to trust your judgment ¡ª and your intuition
+No matter how good your grades were in engineering school, and how quickly you learn new technologies and techniques, sometimes, there¡¯s no substitute for a tester's intuition ¡ª and that only comes with experience. As a hiring manager, if you have a candidate with an inquisitive mind, a desire to get to the bottom of things and an intuitive feel for the root cause of a problem, you might overlook a few missing hard skills on the person's resume. In the long run, they might add more to the team than someone with a more impressive list of technical credentials.
+
+Speaking from experience
+Fortunately, the days when QA was considered an afterthought are mostly behind us. With quality becoming a part of every step of the application lifecycle, even if you choose an entirely technical track in your career, you will need the soft skills above to become an effective team player and work well within the organization. These skills may be less tangible than a degree, but they're absolutely essential for both QA testers and their managers.
+
+As a hiring manager in QA testing, what soft skills do you find to be critical for a good hire?  As a QA testing professional, which skills do you see most often missing in teams? I look forward to hearing your thoughts and experiences.
